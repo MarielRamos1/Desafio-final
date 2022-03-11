@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 18px;
+    background-image: url(images/blue-snow.png);
+}
+
+header {
+    float: left;
+    margin-top: 20px;
+}
+
+header div ul {
+    display: inline;
+  }
+  header div ul li {
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 500ms ease;
+  }
+  header div ul li:hover {
+    background-color: pink;
+  }
+
+.navbar-nav {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    background-color: #82a6e0;
+}
+
+.navbar-nav {
+    display: inline;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.nav-item {
+    float: right;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+
+.nav-item:hover {
+    background-color: pink;;
+}
+
+.video-introducción {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 200px;
+    float: left;
+}
+
+h1 h2{
+    padding: 30px 20px 50px 10px;
+    text-align: center;
+    color:royalblue;
+    font-size: medium;
+}
+
+.ult-lanzamientos {
+    text-align: center;
+    margin: 30px;
+}
+
+.titulo-int {
+    text-align: center;
+    margin: 50px;
+}
+
+.foto-grupal {
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+}
+
+.foto-grupal h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+.foto-grupal img {
+    box-shadow: 8px 6px 16px -3px #000000;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.wrapper p {
+margin-bottom: 16px;
+text-decoration: none;
+padding: 25px 25px;
+line-height: normal;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+text-align: center;
+background-color: #dde5ed;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+ul li {
+    padding-left: 30px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.col img {
+    margin: 20px;
+    box-shadow: 8px 6px 16px -3px #000000;
+}
+
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.container-fluid {
+    background-color: #82a6e0;
+}
+
+.accordion-item {
+    background-color: #69a3e0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer {
+    margin-left: 10%;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 17px;
+    margin-top: 500px;
+}
+
+@media only screen and (max-width: 480px) {
+    .video-introducción {
+        display: none;
+    }
+    p {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .video-introducción {
+        display: none;
+    }
+    
+    p {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    video {
+        width:100%;
+    }
+    p {
+        width: 100%
+    }
+}
